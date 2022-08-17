@@ -1,0 +1,11 @@
+Animal = {'Name': 'Dog', 'colour': 'black', 'legs':4}
+print("Name:",Animal['Name'])
+Animal['Name']='Cat'
+Animal['Food']='Milk'
+print(Animal['Name'],"Likes to have",Animal['Food'])
+Student={}
+N='Ravi'
+A=25
+Student['Name']=N
+Student['Age']=A
+print(Student['Name'],"is",Student['Age'],"Years old")

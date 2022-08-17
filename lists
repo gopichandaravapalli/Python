@@ -1,0 +1,16 @@
+sub=['Java','Python','C&C++']
+print(sub)
+print(sub[2])
+sub[2]='Math'
+for x in sub:
+    print(x)
+
+marks=[27,29,45,18]
+for x in marks:
+    if(x<25):
+        print('FAIL!')
+    else:
+        print('PASS!')
+
+Nlist=sub+marks
+print(Nlist)
