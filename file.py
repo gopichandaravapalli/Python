@@ -1,0 +1,10 @@
+file = open('abc.txt', 'w')
+file.write("line-1")
+file.write("line-2")
+file = open("abc.txt", "r")
+print (file.read(5))
+file = open('abc.txt',"a")
+file.write("one more line add")
+with open('abc.txt', 'r') as f:
+  print(f.read())
+file.close()
